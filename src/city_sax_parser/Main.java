@@ -13,7 +13,7 @@ public class Main {
         final String fileName = "src/city_sax_parser/address.xml";
         try {
             XMLSaveStAX.createXML(fileName); // конвертація у xml за допомогою StAX Parser
-            SAXtoObject.parseXmlSax(fileName); // конвертація з xml за допомогою SAX Parser
+            SAXtoConsole.parseXmlSax(fileName); // конвертація з xml за допомогою SAX Parser
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

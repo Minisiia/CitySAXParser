@@ -9,7 +9,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 
-public class SAXtoObject {
+public class SAXtoConsole {
     public static void parseXmlSax(String file) throws RuntimeException {
 
         try {
